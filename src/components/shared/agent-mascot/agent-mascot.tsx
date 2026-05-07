@@ -1,6 +1,7 @@
 import "./mascot.css";
 import { AntigravityMascot } from "./antigravity-mascot";
 import { ClaudeMascot } from "./claude-mascot";
+import { CodeBuddyMascot } from "./codebuddy-mascot";
 import { CodexMascot } from "./codex-mascot";
 import { CopilotMascot } from "./copilot-mascot";
 import { CursorMascot } from "./cursor-mascot";
@@ -49,6 +50,11 @@ const MASCOT_MAP: Record<
   windsurf: {
     component: WindsurfMascot,
     className: "mascot-windsurf",
+    scale: 1,
+  },
+  codebuddy: {
+    component: CodeBuddyMascot,
+    className: "mascot-codebuddy",
     scale: 1,
   },
 };

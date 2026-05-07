@@ -45,6 +45,7 @@ pub struct AgentPathOverrides {
     pub gemini: Option<String>,
     pub antigravity: Option<String>,
     pub copilot: Option<String>,
+    pub codebuddy: Option<String>,
 }
 
 impl Default for Config {
